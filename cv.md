@@ -52,7 +52,8 @@
 # My expirience:
 
     * Work in construction organizations (2012-2022);
-    * Study project by courses Udemy.
+    * Study project by courses Udemy;
+    * Study in RS-SCHOOL.
 
 # My Languages:
 
