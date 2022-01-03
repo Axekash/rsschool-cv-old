@@ -1,3 +1,167 @@
 * {
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
 }
+
+body {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+    .nav-list {
+        flex-wrap: wrap;
+    }
+    .nav-item a {
+        font-size: 16px;
+    }
+    .footer-contacts img{
+        height: 30px;    
+    }
+    
+    .img-logo {
+        height: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .nav-item a {
+        font-size: 15px;
+    }
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+
+
+.nav {
+    min-height: 50px;
+    background-color: rgba(207, 161, 123, 0.4);
+
+}
+
+.nav-list {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0 10px;
+
+    list-style-type: none;
+}
+
+.nav-item {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.nav-item a {
+    text-decoration: none;
+}
+
+.name-wrapper-wrapper {
+    display: flex;
+    align-items: center;
+    background-color: rgba(72, 62, 202, 0.4);
+}
+
+.name-avatar img {
+    display: block;
+    width: 300px;
+
+}
+.name-fullname {
+    margin: 0 auto;
+    font-size: 22px;
+    text-align: center;
+}
+
+.title h2{
+    text-align: center;
+    margin: 0 auto;
+
+}
+.about-me-wrapper {
+    min-height: 200px;
+    background-color: rgba(9, 128, 158, 0.4);
+    padding: 20px;
+}
+
+
+.main-descr p{
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.main p{
+    margin: 10px 0;
+}
+
+.my-skills-wrapper {
+    padding: 20px 0px;
+    background-color: rgba(60, 175, 122, 0.4);
+}
+
+.skill-list {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.code-exmpls-wrapper {
+    padding: 20px;
+    min-height: 50px;
+    background-color: rgba(214, 236, 15, 0.4);
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+}
+.code-exmpls-description {
+    background-color: #999;
+}
+
+.expirience-wrapper {
+    background-color: rgba(236, 177, 15, 0.4);
+    padding: 20px 0;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.language-wrapper {
+    background-color: rgba(236, 78, 15, 0.4);
+    padding: 20px 0;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(9, 9, 9, 0.4);
+    padding: 20px;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.footer-contacts img{
+    height: 50px;    
+}
+.footer-contacts-mail img{
+    height: 50px;    
+}
+
+.img-logo {
+    height: 50px;
+}
+
+
+
