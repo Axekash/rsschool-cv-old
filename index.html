@@ -4,12 +4,164 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
     <title>CV</title>
+    <link rel="icon" href="./assets/img/cropped-favicon.png.ico">
+    <link rel="stylesheet" href="./assets/fonts/font.css">
+    <link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
     <header class="header">
-        <img src="#" alt="avatar">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#name">Name</a></li>
+                    <li class="nav-item"><a href="#about-me">About me</a></li>
+                    <li class="nav-item"><a href="#skills">Skills</a></li>
+                    <li class="nav-item"><a href="#code">Code example</a></li>
+                    <li class="nav-item"><a href="#expirience">Expirience</a></li>
+                    <li class="nav-item"><a href="#lang">Language</a></li>
+                    <li class="nav-item"><a href="#contacts">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
+
+    <main class="main">
+        <section class="name-wrapper">
+            <div class="container">
+                <div class="name-wrapper-wrapper" >
+                    <div class="name-avatar">
+                        <img src="./assets/img/avatar.jpg" alt="avatar">
+                    </div>
+                    <div class="name-fullname">
+                        <h1 id="name">Kuchutkov Alexandr</h1>
+                        <hr>
+                        <p>Junior Front-end Developer</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+            <section class="about-me">
+                <div class="container">
+                    <div class="about-me-wrapper">
+                        <div class="title" id="about-me">
+                            <h2>About me</h2>
+                        </div>
+                        <div class="main-descr">
+                            <p>I am 30 year old, I work as civil engeneer (estimate engineer), but I don't see further development prospects in this direction.</p>
+                            <p>I like constant development, I like writing code, exploring new possibilities in front-end development.</p> 
+                            <p>My stengths are perseverance, problem sloving, fast learning.</p> 
+                            <p>I want to gain knowledge and skills for employment in a company, development in it, and launching my projects.</p> 
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="my-skills">
+                <div class="container">
+                    <div class="my-skills-wrapper">
+                        <div class="title" id="skills">
+                            <h2>My Skills</h2>
+                        </div>
+                        <ul class="skill-list">
+                            <li class="skill-item">
+                                HTML
+                            </li>
+                            <li class="skill-item">CSS (Framework Bootstrap, Preprocessor SASS/SCSS, BEM Metodology)</li>
+                            <li class="skill-item">Git Control Version (remote service GitHub)</li>
+                            <li class="skill-item">Gulp</li>
+                            <li class="skill-item">Editors: VSCode</li>
+                            <li class="skill-item">Windows OS.</li>
+                            <li class="skill-item">Figma</li>
+                            <li class="skill-item">Photoshop</li>
+                            <li class="skill-item">My Purposefulness.</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section class="code-exmpls">
+                <div class="container">
+                    <div class="code-exmpls-wrapper">
+                        <div class="title" id="code">
+                            <h2>Code Examples</h2>
+                        </div>
+                        <div class="code-exmpls-description">
+                            <code>
+function multiply(a, b){ <br>
+    return a * b <br>
+}
+                            </code>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="expirience">
+                <div class="container">
+                    <div class="expirience-wrapper">
+                        <div class="title" id="expirience">
+                            <h2>My expirience</h2>
+                        </div>
+                        <div class="expirience-description">
+                            <ul>
+                                <li>Work in construction organizations (2012-2022);</li>
+                                <li>Study project by courses Udemy.</li>
+                                <li>I am taking the RS-SCHOOL JS cource </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="language">
+                <div class="container">
+                    <div class="language-wrapper">
+                        <div class="title" id="lang">
+                            <h2>My languages</h2>
+                        </div>
+                        <div class="language-description">
+                            <ul class="language-list">
+                                <li class="language-item">Russian - native</li>
+                                <li class="language-item">Belarussian - native</li>
+                                <li class="language-item">English - A1 (Beginner) - A2 (Elementary)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </main>
+
+    <footer class="footer" id="contacts">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="link">
+                    <a href="#">Axekash</a>
+                </div>
+                <div class="logo-rsschool">
+                    <a href="https://rs.school/js-stage0/"><img src="./assets/img/rs_school_js.svg" alt="logo-rsschool" class="img-logo"></a>
+                </div>
+                <div class="year">2022</div>
+                <div class="footer-contacts">
+                        <a href="https://github.com/Axekash?tab=repositories">         
+                            <img src="./assets/img/github-seeklogo.com.svg" alt="github-account">
+                        </a>  
+                </div>
+                <div class="footer-contacts-mail">
+                    <a href="kashim007@mail.ru">
+                        <img src="./assets/img/mail-ru-seeklogo.com.svg" alt="mail.ru">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
 </body>
 </html>
